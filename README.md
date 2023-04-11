@@ -1,39 +1,53 @@
-# rt-thread-pro
+# rt-thread-pro（gcc移植，非arm)
+
+![image-20230411223407545](D:\code\mcu\stm32\rt-thread-pro\assets\image-20230411223407545.png)
+
+![image-20230411223340890](D:\code\mcu\stm32\rt-thread-pro\assets\image-20230411223340890.png)
 
 #### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+rt-thread的移植
+
+硬件平台：CT117E-M4（stm32g431rbt6)
+
+编译链：GCC
+
+IDE : Clion/vscode
 
 #### 软件架构
-软件架构说明
+RT-THREAD nano core
+
+组件：finsh
+
+hal_driver
+
+#### 说明
+
+##### 1.关闭finsh
+
+注释掉rtconfig.h里面
+
+![image-20230411222034566](D:\code\mcu\stm32\rt-thread-pro\assets\image-20230411222034566.png)
+
+##### 2.主函数为application.c里面的main.c
+
+##### 3.cubemx生成代码的话注意将生成的 int main(void)删除
 
 
-#### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### GCC移植注意：
 
-#### 使用说明
+##### 1.修改startupxxxxxx.s里面的初始化跳转函数
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+![image-20230411222409967](D:\code\mcu\stm32\rt-thread-pro\assets\image-20230411222409967.png)
 
-#### 参与贡献
+原因为GNUC跳转的是  **entry** 非arm里面的 **$Sub$$main**
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+![image-20230411222535147](D:\code\mcu\stm32\rt-thread-pro\assets\image-20230411222535147.png)
 
+##### 2.如要增加finsh组件，那么链接文件.ld里面添加
 
-#### 特技
+![image-20230411222758293](D:\code\mcu\stm32\rt-thread-pro\assets\image-20230411222758293.png)
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 运行截图
+
+![image-20230411223147877](D:\code\mcu\stm32\rt-thread-pro\assets\image-20230411223147877.png)

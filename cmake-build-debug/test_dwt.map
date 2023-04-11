@@ -2179,7 +2179,7 @@ LOAD d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/
                 0x08000000                g_pfnVectors
                 0x080001d8                        . = ALIGN (0x4)
 
-.text           0x08000200     0x49e8
+.text           0x08000200     0x49f4
                 0x08000200                        . = ALIGN (0x4)
  *(.text)
  .text          0x08000200       0xfc CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/context_gcc.S.obj
@@ -2449,545 +2449,545 @@ LOAD d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/
                 0x08002574       0x10 CMakeFiles/test_dwt.elf.dir/rt-thread/bsp/board.c.obj
                 0x08002574                SysTick_Handler
  .text.rt_hw_console_output
-                0x08002584       0x48 CMakeFiles/test_dwt.elf.dir/rt-thread/bsp/board.c.obj
+                0x08002584       0x54 CMakeFiles/test_dwt.elf.dir/rt-thread/bsp/board.c.obj
                 0x08002584                rt_hw_console_output
  .text.rt_hw_console_getchar
-                0x080025cc       0x34 CMakeFiles/test_dwt.elf.dir/rt-thread/bsp/board.c.obj
-                0x080025cc                rt_hw_console_getchar
- .text.hello    0x08002600       0x10 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
-                0x08002600                hello
+                0x080025d8       0x34 CMakeFiles/test_dwt.elf.dir/rt-thread/bsp/board.c.obj
+                0x080025d8                rt_hw_console_getchar
+ .text.hello    0x0800260c       0x10 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+                0x0800260c                hello
  .text.show_wait_queue
-                0x08002610       0x30 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
- .text.version  0x08002640        0xa CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
-                0x08002640                version
+                0x0800261c       0x30 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+ .text.version  0x0800264c        0xa CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+                0x0800264c                version
  .text.list_get_next
-                0x0800264a       0x66 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+                0x08002656       0x66 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
  .text.list_find_init
-                0x080026b0       0x20 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+                0x080026bc       0x20 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
  .text.list_thread
-                0x080026d0      0x14c CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
-                0x080026d0                list_thread
+                0x080026dc      0x14c CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+                0x080026dc                list_thread
  .text.list_sem
-                0x0800281c      0x100 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
-                0x0800281c                list_sem
+                0x08002828      0x100 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+                0x08002828                list_sem
  .text.list_mailbox
-                0x0800291c      0x108 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
-                0x0800291c                list_mailbox
+                0x08002928      0x108 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+                0x08002928                list_mailbox
  .text.list_timer
-                0x08002a24       0xd8 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
-                0x08002a24                list_timer
- .text.list     0x08002afc       0x4c CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
-                0x08002afc                list
+                0x08002a30       0xd8 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+                0x08002a30                list_timer
+ .text.list     0x08002b08       0x4c CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+                0x08002b08                list
  .text.str_common
-                0x08002b48       0x24 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+                0x08002b54       0x24 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
  .text.msh_split
-                0x08002b6c       0xc0 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+                0x08002b78       0xc0 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
  .text.msh_help
-                0x08002c2c       0x58 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
-                0x08002c2c                msh_help
+                0x08002c38       0x58 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+                0x08002c38                msh_help
  .text.msh_get_cmd
-                0x08002c84       0x50 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
- .text.cmd_ps   0x08002cd4        0xa CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
-                0x08002cd4                cmd_ps
+                0x08002c90       0x50 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+ .text.cmd_ps   0x08002ce0        0xa CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+                0x08002ce0                cmd_ps
  .text._msh_exec_cmd
-                0x08002cde       0x5e CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+                0x08002cea       0x5e CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
  .text.msh_is_used
-                0x08002d3c        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
-                0x08002d3c                msh_is_used
+                0x08002d48        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+                0x08002d48                msh_is_used
  .text.msh_exec
-                0x08002d40       0x54 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
-                0x08002d40                msh_exec
+                0x08002d4c       0x54 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+                0x08002d4c                msh_exec
  .text.msh_auto_complete
-                0x08002d94       0x9c CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
-                0x08002d94                msh_auto_complete
+                0x08002da0       0x9c CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+                0x08002da0                msh_auto_complete
  .text.finsh_getchar
-                0x08002e30        0x8 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+                0x08002e3c        0x8 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
  .text.finsh_get_prompt
-                0x08002e38       0x64 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
-                0x08002e38                finsh_get_prompt
+                0x08002e44       0x64 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+                0x08002e44                finsh_get_prompt
  .text.shell_auto_complete
-                0x08002e9c       0x34 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+                0x08002ea8       0x34 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
  .text.finsh_thread_entry
-                0x08002ed0      0x2cc CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
-                0x08002ed0                finsh_thread_entry
+                0x08002edc      0x2cc CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+                0x08002edc                finsh_thread_entry
  .text.finsh_set_prompt_mode
-                0x0800319c       0x18 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
-                0x0800319c                finsh_set_prompt_mode
+                0x080031a8       0x18 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+                0x080031a8                finsh_set_prompt_mode
  .text.finsh_system_function_init
-                0x080031b4       0x14 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
-                0x080031b4                finsh_system_function_init
+                0x080031c0       0x14 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+                0x080031c0                finsh_system_function_init
  .text.finsh_system_var_init
-                0x080031c8       0x14 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
-                0x080031c8                finsh_system_var_init
+                0x080031d4       0x14 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+                0x080031d4                finsh_system_var_init
  .text.finsh_system_init
-                0x080031dc       0x88 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
-                0x080031dc                finsh_system_init
+                0x080031e8       0x88 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+                0x080031e8                finsh_system_init
  .text.bus_fault_track
-                0x08003264       0xc4 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
+                0x08003270       0xc4 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
  .text.mem_manage_fault_track
-                0x08003328       0xac CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
+                0x08003334       0xac CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
  .text.usage_fault_track
-                0x080033d4       0xb0 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
+                0x080033e0       0xb0 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
  .text.hard_fault_track
-                0x08003484       0x74 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
+                0x08003490       0x74 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
  .text.rt_hw_stack_init
-                0x080034f8       0x4c CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
-                0x080034f8                rt_hw_stack_init
+                0x08003504       0x4c CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
+                0x08003504                rt_hw_stack_init
  .text.rt_hw_hard_fault_exception
-                0x08003544      0x11c CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
-                0x08003544                rt_hw_hard_fault_exception
+                0x08003550      0x11c CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
+                0x08003550                rt_hw_hard_fault_exception
  .text.rt_tick_get
-                0x08003660        0xc CMakeFiles/test_dwt.elf.dir/rt-thread/src/clock.c.obj
-                0x08003660                rt_tick_get
+                0x0800366c        0xc CMakeFiles/test_dwt.elf.dir/rt-thread/src/clock.c.obj
+                0x0800366c                rt_tick_get
  .text.rt_tick_increase
-                0x0800366c       0x2c CMakeFiles/test_dwt.elf.dir/rt-thread/src/clock.c.obj
-                0x0800366c                rt_tick_increase
+                0x08003678       0x2c CMakeFiles/test_dwt.elf.dir/rt-thread/src/clock.c.obj
+                0x08003678                rt_tick_increase
  .text.rt_tick_from_millisecond
-                0x08003698       0x3c CMakeFiles/test_dwt.elf.dir/rt-thread/src/clock.c.obj
-                0x08003698                rt_tick_from_millisecond
+                0x080036a4       0x3c CMakeFiles/test_dwt.elf.dir/rt-thread/src/clock.c.obj
+                0x080036a4                rt_tick_from_millisecond
  .text.rti_start
-                0x080036d4        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+                0x080036e0        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
  .text.rti_board_start
-                0x080036d8        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+                0x080036e4        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
  .text.rti_board_end
-                0x080036dc        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
- .text.rti_end  0x080036e0        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+                0x080036e8        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+ .text.rti_end  0x080036ec        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
  .text.rt_components_init
-                0x080036e4       0x1c CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
-                0x080036e4                rt_components_init
+                0x080036f0       0x1c CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+                0x080036f0                rt_components_init
  .text.main_thread_entry
-                0x08003700        0xc CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
-                0x08003700                main_thread_entry
+                0x0800370c        0xc CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+                0x0800370c                main_thread_entry
  .text.rt_application_init
-                0x0800370c       0x40 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
-                0x0800370c                rt_application_init
+                0x08003718       0x40 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+                0x08003718                rt_application_init
  .text.rtthread_startup
-                0x0800374c       0x2a CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
-                0x0800374c                rtthread_startup
- .text.entry    0x08003776        0xa CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
-                0x08003776                entry
+                0x08003758       0x2a CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+                0x08003758                rtthread_startup
+ .text.entry    0x08003782        0xa CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+                0x08003782                entry
  .text.rt_thread_idle_entry
-                0x08003780        0x2 CMakeFiles/test_dwt.elf.dir/rt-thread/src/idle.c.obj
- *fill*         0x08003782        0x2 
+                0x0800378c        0x2 CMakeFiles/test_dwt.elf.dir/rt-thread/src/idle.c.obj
+ *fill*         0x0800378e        0x2 
  .text.rt_thread_idle_init
-                0x08003784       0x3c CMakeFiles/test_dwt.elf.dir/rt-thread/src/idle.c.obj
-                0x08003784                rt_thread_idle_init
+                0x08003790       0x3c CMakeFiles/test_dwt.elf.dir/rt-thread/src/idle.c.obj
+                0x08003790                rt_thread_idle_init
  .text.rt_sem_init
-                0x080037c0       0x20 CMakeFiles/test_dwt.elf.dir/rt-thread/src/ipc.c.obj
-                0x080037c0                rt_sem_init
+                0x080037cc       0x20 CMakeFiles/test_dwt.elf.dir/rt-thread/src/ipc.c.obj
+                0x080037cc                rt_sem_init
  .text.rt_interrupt_enter
-                0x080037e0       0x1c CMakeFiles/test_dwt.elf.dir/rt-thread/src/irq.c.obj
-                0x080037e0                rt_interrupt_enter
+                0x080037ec       0x1c CMakeFiles/test_dwt.elf.dir/rt-thread/src/irq.c.obj
+                0x080037ec                rt_interrupt_enter
  .text.rt_interrupt_leave
-                0x080037fc       0x1c CMakeFiles/test_dwt.elf.dir/rt-thread/src/irq.c.obj
-                0x080037fc                rt_interrupt_leave
+                0x08003808       0x1c CMakeFiles/test_dwt.elf.dir/rt-thread/src/irq.c.obj
+                0x08003808                rt_interrupt_leave
  .text.skip_atoi
-                0x08003818       0x24 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+                0x08003824       0x24 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
  .text.print_number
-                0x0800383c      0x170 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+                0x08003848      0x170 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
  .text.rt_memset
-                0x080039ac       0x62 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
-                0x080039ac                rt_memset
+                0x080039b8       0x62 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+                0x080039b8                rt_memset
  .text.rt_memmove
-                0x08003a0e       0x3e CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
-                0x08003a0e                rt_memmove
+                0x08003a1a       0x3e CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+                0x08003a1a                rt_memmove
  .text.rt_strncpy
-                0x08003a4c       0x2c CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
-                0x08003a4c                rt_strncpy
+                0x08003a58       0x2c CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+                0x08003a58                rt_strncpy
  .text.rt_strlen
-                0x08003a78       0x10 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
-                0x08003a78                rt_strlen
+                0x08003a84       0x10 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+                0x08003a84                rt_strlen
  .text.rt_vsnprintf
-                0x08003a88      0x2e0 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
-                0x08003a88                rt_vsnprintf
+                0x08003a94      0x2e0 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+                0x08003a94                rt_vsnprintf
  .text.rt_kprintf
-                0x08003d68       0x30 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
-                0x08003d68                rt_kprintf
+                0x08003d74       0x30 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+                0x08003d74                rt_kprintf
  .text.rt_show_version
-                0x08003d98       0x40 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
-                0x08003d98                rt_show_version
+                0x08003da4       0x40 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+                0x08003da4                rt_show_version
  .text.__rt_ffs
-                0x08003dd8       0x44 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
-                0x08003dd8                __rt_ffs
+                0x08003de4       0x44 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+                0x08003de4                __rt_ffs
  .text.rt_object_get_information
-                0x08003e1c       0x24 CMakeFiles/test_dwt.elf.dir/rt-thread/src/object.c.obj
-                0x08003e1c                rt_object_get_information
+                0x08003e28       0x24 CMakeFiles/test_dwt.elf.dir/rt-thread/src/object.c.obj
+                0x08003e28                rt_object_get_information
  .text.rt_object_init
-                0x08003e40       0x52 CMakeFiles/test_dwt.elf.dir/rt-thread/src/object.c.obj
-                0x08003e40                rt_object_init
+                0x08003e4c       0x52 CMakeFiles/test_dwt.elf.dir/rt-thread/src/object.c.obj
+                0x08003e4c                rt_object_init
  .text.rt_object_detach
-                0x08003e92       0x24 CMakeFiles/test_dwt.elf.dir/rt-thread/src/object.c.obj
-                0x08003e92                rt_object_detach
+                0x08003e9e       0x24 CMakeFiles/test_dwt.elf.dir/rt-thread/src/object.c.obj
+                0x08003e9e                rt_object_detach
  .text.rt_object_is_systemobject
-                0x08003eb6       0x10 CMakeFiles/test_dwt.elf.dir/rt-thread/src/object.c.obj
-                0x08003eb6                rt_object_is_systemobject
- *fill*         0x08003ec6        0x2 
+                0x08003ec2       0x10 CMakeFiles/test_dwt.elf.dir/rt-thread/src/object.c.obj
+                0x08003ec2                rt_object_is_systemobject
+ *fill*         0x08003ed2        0x2 
  .text.rt_system_scheduler_init
-                0x08003ec8       0x4c CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
-                0x08003ec8                rt_system_scheduler_init
+                0x08003ed4       0x4c CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
+                0x08003ed4                rt_system_scheduler_init
  .text.rt_system_scheduler_start
-                0x08003f14       0x30 CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
-                0x08003f14                rt_system_scheduler_start
+                0x08003f20       0x30 CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
+                0x08003f20                rt_system_scheduler_start
  .text.rt_schedule
-                0x08003f44       0x74 CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
-                0x08003f44                rt_schedule
+                0x08003f50       0x74 CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
+                0x08003f50                rt_schedule
  .text.rt_schedule_insert_thread
-                0x08003fb8       0x4c CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
-                0x08003fb8                rt_schedule_insert_thread
+                0x08003fc4       0x4c CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
+                0x08003fc4                rt_schedule_insert_thread
  .text.rt_schedule_remove_thread
-                0x08004004       0x48 CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
-                0x08004004                rt_schedule_remove_thread
+                0x08004010       0x48 CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
+                0x08004010                rt_schedule_remove_thread
  .text.rt_enter_critical
-                0x0800404c       0x18 CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
-                0x0800404c                rt_enter_critical
+                0x08004058       0x18 CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
+                0x08004058                rt_enter_critical
  .text.rt_exit_critical
-                0x08004064       0x3c CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
-                0x08004064                rt_exit_critical
+                0x08004070       0x3c CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
+                0x08004070                rt_exit_critical
  .text._thread_cleanup_execute
-                0x080040a0       0x1a CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
- *fill*         0x080040ba        0x2 
+                0x080040ac       0x1a CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+ *fill*         0x080040c6        0x2 
  .text.rt_thread_exit
-                0x080040bc       0x5c CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
-                0x080040bc                rt_thread_exit
+                0x080040c8       0x5c CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+                0x080040c8                rt_thread_exit
  .text._rt_thread_init
-                0x08004118       0x78 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+                0x08004124       0x78 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
  .text.rt_thread_timeout
-                0x08004190       0x2c CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
-                0x08004190                rt_thread_timeout
+                0x0800419c       0x2c CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+                0x0800419c                rt_thread_timeout
  .text.rt_thread_init
-                0x080041bc       0x36 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
-                0x080041bc                rt_thread_init
- *fill*         0x080041f2        0x2 
+                0x080041c8       0x36 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+                0x080041c8                rt_thread_init
+ *fill*         0x080041fe        0x2 
  .text.rt_thread_self
-                0x080041f4        0xc CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
-                0x080041f4                rt_thread_self
+                0x08004200        0xc CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+                0x08004200                rt_thread_self
  .text.rt_thread_yield
-                0x08004200       0x5c CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
-                0x08004200                rt_thread_yield
+                0x0800420c       0x5c CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+                0x0800420c                rt_thread_yield
  .text.rt_thread_suspend
-                0x0800425c       0x44 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
-                0x0800425c                rt_thread_suspend
+                0x08004268       0x44 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+                0x08004268                rt_thread_suspend
  .text.rt_thread_sleep
-                0x080042a0       0x4c CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
-                0x080042a0                rt_thread_sleep
+                0x080042ac       0x4c CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+                0x080042ac                rt_thread_sleep
  .text.rt_thread_delay
-                0x080042ec        0x8 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
-                0x080042ec                rt_thread_delay
+                0x080042f8        0x8 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+                0x080042f8                rt_thread_delay
  .text.rt_thread_mdelay
-                0x080042f4        0xc CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
-                0x080042f4                rt_thread_mdelay
+                0x08004300        0xc CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+                0x08004300                rt_thread_mdelay
  .text.rt_thread_resume
-                0x08004300       0x46 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
-                0x08004300                rt_thread_resume
+                0x0800430c       0x46 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+                0x0800430c                rt_thread_resume
  .text.rt_thread_startup
-                0x08004346       0x28 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
-                0x08004346                rt_thread_startup
+                0x08004352       0x28 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+                0x08004352                rt_thread_startup
  .text._rt_timer_init
-                0x0800436e       0x32 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
+                0x0800437a       0x32 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
  .text._rt_timer_remove
-                0x080043a0       0x32 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
+                0x080043ac       0x32 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
  .text.rt_timer_init
-                0x080043d2       0x28 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
-                0x080043d2                rt_timer_init
+                0x080043de       0x28 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
+                0x080043de                rt_timer_init
  .text.rt_timer_detach
-                0x080043fa       0x28 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
-                0x080043fa                rt_timer_detach
- *fill*         0x08004422        0x2 
+                0x08004406       0x28 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
+                0x08004406                rt_timer_detach
+ *fill*         0x0800442e        0x2 
  .text.rt_timer_start
-                0x08004424       0xa0 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
-                0x08004424                rt_timer_start
+                0x08004430       0xa0 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
+                0x08004430                rt_timer_start
  .text.rt_timer_stop
-                0x080044c4       0x30 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
-                0x080044c4                rt_timer_stop
+                0x080044d0       0x30 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
+                0x080044d0                rt_timer_stop
  .text.rt_timer_control
-                0x080044f4       0x54 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
-                0x080044f4                rt_timer_control
+                0x08004500       0x54 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
+                0x08004500                rt_timer_control
  .text.rt_timer_check
-                0x08004548       0xa8 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
-                0x08004548                rt_timer_check
+                0x08004554       0xa8 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
+                0x08004554                rt_timer_check
  .text.rt_system_timer_init
-                0x080045f0       0x18 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
-                0x080045f0                rt_system_timer_init
+                0x080045fc       0x18 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
+                0x080045fc                rt_system_timer_init
  .text.rt_system_timer_thread_init
-                0x08004608        0x2 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
-                0x08004608                rt_system_timer_thread_init
- *fill*         0x0800460a        0x2 
+                0x08004614        0x2 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
+                0x08004614                rt_system_timer_thread_init
+ *fill*         0x08004616        0x2 
  .text.__udivmoddi4
-                0x0800460c      0x2bc d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
-                0x0800460c                __udivmoddi4
- .text.memset   0x080048c8       0xa4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-memset.o)
-                0x080048c8                memset
- .text.strncmp  0x0800496c       0x84 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-strncmp.o)
-                0x0800496c                strncmp
+                0x08004618      0x2bc d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x08004618                __udivmoddi4
+ .text.memset   0x080048d4       0xa4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-memset.o)
+                0x080048d4                memset
+ .text.strncmp  0x08004978       0x84 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-strncmp.o)
+                0x08004978                strncmp
  .text.__libc_init_array
-                0x080049f0       0x50 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-init.o)
-                0x080049f0                __libc_init_array
+                0x080049fc       0x50 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-init.o)
+                0x080049fc                __libc_init_array
  .text.__retarget_lock_acquire_recursive
-                0x08004a40        0x4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
-                0x08004a40                __retarget_lock_acquire_recursive
+                0x08004a4c        0x4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
+                0x08004a4c                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08004a44        0x4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
-                0x08004a44                __retarget_lock_release_recursive
+                0x08004a50        0x4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
+                0x08004a50                __retarget_lock_release_recursive
  .text.startup.register_fini
-                0x08004a48       0x14 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
- .text.atexit   0x08004a5c        0xc d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-atexit.o)
-                0x08004a5c                atexit
+                0x08004a54       0x14 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .text.atexit   0x08004a68        0xc d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-atexit.o)
+                0x08004a68                atexit
  .text.__libc_fini_array
-                0x08004a68       0x28 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-fini.o)
-                0x08004a68                __libc_fini_array
+                0x08004a74       0x28 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-fini.o)
+                0x08004a74                __libc_fini_array
  .text.__register_exitproc
-                0x08004a90       0x80 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__atexit.o)
-                0x08004a90                __register_exitproc
+                0x08004a9c       0x80 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__atexit.o)
+                0x08004a9c                __register_exitproc
  *(.glue_7)
- .glue_7        0x08004b10        0x0 linker stubs
+ .glue_7        0x08004b1c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08004b10        0x0 linker stubs
+ .glue_7t       0x08004b1c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08004b10        0x0 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x08004b1c        0x0 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x08004b10        0x4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crti.o
-                0x08004b10                _init
- .init          0x08004b14        0x8 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x08004b1c        0x4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crti.o
+                0x08004b1c                _init
+ .init          0x08004b20        0x8 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x08004b1c        0x4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crti.o
-                0x08004b1c                _fini
- .fini          0x08004b20        0x8 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtn.o
-                0x08004b28                        . = ALIGN (0x4)
-                0x08004b28                        __fsymtab_start = .
+ .fini          0x08004b28        0x4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crti.o
+                0x08004b28                _fini
+ .fini          0x08004b2c        0x8 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtn.o
+                0x08004b34                        . = ALIGN (0x4)
+                0x08004b34                        __fsymtab_start = .
  *(FSymTab)
- FSymTab        0x08004b28       0x90 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
-                0x08004b28                __fsym_list
-                0x08004b34                __fsym___cmd_list_timer
-                0x08004b40                __fsym_list_timer
-                0x08004b4c                __fsym___cmd_list_mailbox
-                0x08004b58                __fsym_list_mailbox
-                0x08004b64                __fsym___cmd_list_sem
-                0x08004b70                __fsym_list_sem
-                0x08004b7c                __fsym___cmd_list_thread
-                0x08004b88                __fsym_list_thread
-                0x08004b94                __fsym___cmd_version
-                0x08004ba0                __fsym_version
-                0x08004bac                __fsym_hello
- FSymTab        0x08004bb8       0x18 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
-                0x08004bb8                __fsym___cmd_ps
-                0x08004bc4                __fsym___cmd_help
-                0x08004bd0                        __fsymtab_end = .
-                0x08004bd0                        . = ALIGN (0x4)
-                0x08004bd0                        __vsymtab_start = .
+ FSymTab        0x08004b34       0x90 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+                0x08004b34                __fsym_list
+                0x08004b40                __fsym___cmd_list_timer
+                0x08004b4c                __fsym_list_timer
+                0x08004b58                __fsym___cmd_list_mailbox
+                0x08004b64                __fsym_list_mailbox
+                0x08004b70                __fsym___cmd_list_sem
+                0x08004b7c                __fsym_list_sem
+                0x08004b88                __fsym___cmd_list_thread
+                0x08004b94                __fsym_list_thread
+                0x08004ba0                __fsym___cmd_version
+                0x08004bac                __fsym_version
+                0x08004bb8                __fsym_hello
+ FSymTab        0x08004bc4       0x18 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+                0x08004bc4                __fsym___cmd_ps
+                0x08004bd0                __fsym___cmd_help
+                0x08004bdc                        __fsymtab_end = .
+                0x08004bdc                        . = ALIGN (0x4)
+                0x08004bdc                        __vsymtab_start = .
  *(VSymTab)
-                0x08004bd0                        __vsymtab_end = .
-                0x08004bd0                        . = ALIGN (0x4)
-                0x08004bd0                        . = ALIGN (0x4)
-                0x08004bd0                        __rt_init_start = .
+                0x08004bdc                        __vsymtab_end = .
+                0x08004bdc                        . = ALIGN (0x4)
+                0x08004bdc                        . = ALIGN (0x4)
+                0x08004bdc                        __rt_init_start = .
  *(SORT_BY_NAME(.rti_fn*))
- .rti_fn.0      0x08004bd0        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
-                0x08004bd0                __rt_init_rti_start
- .rti_fn.0.end  0x08004bd4        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
-                0x08004bd4                __rt_init_rti_board_start
- .rti_fn.1      0x08004bd8        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/bsp/board.c.obj
-                0x08004bd8                __rt_init_uart_init
- .rti_fn.1.end  0x08004bdc        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
-                0x08004bdc                __rt_init_rti_board_end
- .rti_fn.6      0x08004be0        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
-                0x08004be0                __rt_init_finsh_system_init
- .rti_fn.6.end  0x08004be4        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
-                0x08004be4                __rt_init_rti_end
-                0x08004be8                        __rt_init_end = .
-                0x08004be8                        . = ALIGN (0x4)
-                0x08004be8                        . = ALIGN (0x4)
-                0x08004be8                        _etext = .
+ .rti_fn.0      0x08004bdc        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+                0x08004bdc                __rt_init_rti_start
+ .rti_fn.0.end  0x08004be0        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+                0x08004be0                __rt_init_rti_board_start
+ .rti_fn.1      0x08004be4        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/bsp/board.c.obj
+                0x08004be4                __rt_init_uart_init
+ .rti_fn.1.end  0x08004be8        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+                0x08004be8                __rt_init_rti_board_end
+ .rti_fn.6      0x08004bec        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+                0x08004bec                __rt_init_finsh_system_init
+ .rti_fn.6.end  0x08004bf0        0x4 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+                0x08004bf0                __rt_init_rti_end
+                0x08004bf4                        __rt_init_end = .
+                0x08004bf4                        . = ALIGN (0x4)
+                0x08004bf4                        . = ALIGN (0x4)
+                0x08004bf4                        _etext = .
 
-.vfp11_veneer   0x08004be8        0x0
- .vfp11_veneer  0x08004be8        0x0 linker stubs
+.vfp11_veneer   0x08004bf4        0x0
+ .vfp11_veneer  0x08004bf4        0x0 linker stubs
 
-.v4_bx          0x08004be8        0x0
- .v4_bx         0x08004be8        0x0 linker stubs
+.v4_bx          0x08004bf4        0x0
+ .v4_bx         0x08004bf4        0x0 linker stubs
 
-.iplt           0x08004be8        0x0
- .iplt          0x08004be8        0x0 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x08004bf4        0x0
+ .iplt          0x08004bf4        0x0 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x08004be8      0xa50
-                0x08004be8                        . = ALIGN (0x4)
+.rodata         0x08004bf4      0xa60
+                0x08004bf4                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.main.str1.4
-                0x08004be8        0xd CMakeFiles/test_dwt.elf.dir/APPlication/application.c.obj
- *fill*         0x08004bf5        0x3 
+                0x08004bf4       0x1d CMakeFiles/test_dwt.elf.dir/APPlication/application.c.obj
+ *fill*         0x08004c11        0x3 
  .rodata.APBPrescTable
-                0x08004bf8        0x8 CMakeFiles/test_dwt.elf.dir/Core/Src/system_stm32g4xx.c.obj
-                0x08004bf8                APBPrescTable
+                0x08004c14        0x8 CMakeFiles/test_dwt.elf.dir/Core/Src/system_stm32g4xx.c.obj
+                0x08004c14                APBPrescTable
  .rodata.AHBPrescTable
-                0x08004c00       0x10 CMakeFiles/test_dwt.elf.dir/Core/Src/system_stm32g4xx.c.obj
-                0x08004c00                AHBPrescTable
+                0x08004c1c       0x10 CMakeFiles/test_dwt.elf.dir/Core/Src/system_stm32g4xx.c.obj
+                0x08004c1c                AHBPrescTable
  .rodata.UARTPrescTable
-                0x08004c10       0x18 CMakeFiles/test_dwt.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj
-                0x08004c10                UARTPrescTable
+                0x08004c2c       0x18 CMakeFiles/test_dwt.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj
+                0x08004c2c                UARTPrescTable
  .rodata.denominator.0
-                0x08004c28        0x8 CMakeFiles/test_dwt.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj
+                0x08004c44        0x8 CMakeFiles/test_dwt.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj
  .rodata.numerator.1
-                0x08004c30        0x8 CMakeFiles/test_dwt.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj
+                0x08004c4c        0x8 CMakeFiles/test_dwt.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj
  .rodata.hello.str1.4
-                0x08004c38       0x12 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
- *fill*         0x08004c4a        0x2 
+                0x08004c54       0x12 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+ *fill*         0x08004c66        0x2 
  .rodata.show_wait_queue.str1.4
-                0x08004c4c        0x6 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
- *fill*         0x08004c52        0x2 
+                0x08004c68        0x6 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+ *fill*         0x08004c6e        0x2 
  .rodata.list_thread.str1.4
-                0x08004c54      0x100 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+                0x08004c70      0x100 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
  .rodata.list_sem.str1.4
-                0x08004d54       0x60 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+                0x08004d70       0x60 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
                                  0x64 (size before relaxing)
  .rodata.list_mailbox.str1.4
-                0x08004db4       0x76 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
- *fill*         0x08004e2a        0x2 
+                0x08004dd0       0x76 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+ *fill*         0x08004e46        0x2 
  .rodata.list_timer.str1.4
-                0x08004e2c       0x9d CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
- *fill*         0x08004ec9        0x3 
+                0x08004e48       0x9d CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+ *fill*         0x08004ee5        0x3 
  .rodata.list.str1.4
-                0x08004ecc       0x25 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
- *fill*         0x08004ef1        0x3 
- .rodata.name   0x08004ef4      0x1ca CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
-                0x08004ef4                __fsym_list_desc
-                0x08004f10                __fsym_list_name
-                0x08004f18                __fsym___cmd_list_timer_desc
-                0x08004f30                __fsym___cmd_list_timer_name
-                0x08004f44                __fsym_list_timer_desc
-                0x08004f5c                __fsym_list_timer_name
-                0x08004f68                __fsym___cmd_list_mailbox_desc
-                0x08004f80                __fsym___cmd_list_mailbox_name
-                0x08004f94                __fsym_list_mailbox_desc
-                0x08004fac                __fsym_list_mailbox_name
-                0x08004fbc                __fsym___cmd_list_sem_desc
-                0x08004fd8                __fsym___cmd_list_sem_name
-                0x08004fe8                __fsym_list_sem_desc
-                0x08005004                __fsym_list_sem_name
-                0x08005010                __fsym___cmd_list_thread_desc
-                0x0800501c                __fsym___cmd_list_thread_name
-                0x08005030                __fsym_list_thread_desc
-                0x0800503c                __fsym_list_thread_name
-                0x08005048                __fsym___cmd_version_desc
-                0x0800506c                __fsym___cmd_version_name
-                0x0800507c                __fsym_version_desc
-                0x080050a0                __fsym_version_name
-                0x080050a8                __fsym_hello_desc
-                0x080050b8                __fsym_hello_name
- *fill*         0x080050be        0x2 
+                0x08004ee8       0x25 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+ *fill*         0x08004f0d        0x3 
+ .rodata.name   0x08004f10      0x1ca CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+                0x08004f10                __fsym_list_desc
+                0x08004f2c                __fsym_list_name
+                0x08004f34                __fsym___cmd_list_timer_desc
+                0x08004f4c                __fsym___cmd_list_timer_name
+                0x08004f60                __fsym_list_timer_desc
+                0x08004f78                __fsym_list_timer_name
+                0x08004f84                __fsym___cmd_list_mailbox_desc
+                0x08004f9c                __fsym___cmd_list_mailbox_name
+                0x08004fb0                __fsym_list_mailbox_desc
+                0x08004fc8                __fsym_list_mailbox_name
+                0x08004fd8                __fsym___cmd_list_sem_desc
+                0x08004ff4                __fsym___cmd_list_sem_name
+                0x08005004                __fsym_list_sem_desc
+                0x08005020                __fsym_list_sem_name
+                0x0800502c                __fsym___cmd_list_thread_desc
+                0x08005038                __fsym___cmd_list_thread_name
+                0x0800504c                __fsym_list_thread_desc
+                0x08005058                __fsym_list_thread_name
+                0x08005064                __fsym___cmd_version_desc
+                0x08005088                __fsym___cmd_version_name
+                0x08005098                __fsym_version_desc
+                0x080050bc                __fsym_version_name
+                0x080050c4                __fsym_hello_desc
+                0x080050d4                __fsym_hello_name
+ *fill*         0x080050da        0x2 
  .rodata.msh_split.str1.4
-                0x080050c0       0x24 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+                0x080050dc       0x24 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
                                  0x26 (size before relaxing)
  .rodata.msh_help.str1.4
-                0x080050e4       0x30 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+                0x08005100       0x30 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
  .rodata.msh_exec.str1.4
-                0x08005114       0x18 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+                0x08005130       0x18 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
  .rodata.msh_auto_complete.str1.4
-                0x0800512c       0x18 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+                0x08005148       0x18 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
                                   0x4 (size before relaxing)
- .rodata.name   0x0800512c       0x4b CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
-                0x0800512c                __fsym___cmd_ps_desc
-                0x08005148                __fsym___cmd_ps_name
-                0x08005154                __fsym___cmd_help_desc
-                0x0800516c                __fsym___cmd_help_name
- *fill*         0x08005177        0x1 
+ .rodata.name   0x08005148       0x4b CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+                0x08005148                __fsym___cmd_ps_desc
+                0x08005164                __fsym___cmd_ps_name
+                0x08005170                __fsym___cmd_help_desc
+                0x08005188                __fsym___cmd_help_name
+ *fill*         0x08005193        0x1 
  .rodata.finsh_get_prompt.str1.4
-                0x08005178       0x12 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
- *fill*         0x0800518a        0x2 
+                0x08005194       0x12 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+ *fill*         0x080051a6        0x2 
  .rodata.shell_auto_complete.str1.4
-                0x0800518c        0x5 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+                0x080051a8        0x5 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
                                   0x9 (size before relaxing)
- *fill*         0x08005191        0x3 
+ *fill*         0x080051ad        0x3 
  .rodata.finsh_thread_entry.str1.4
-                0x08005194       0x14 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+                0x080051b0       0x14 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
                                  0x17 (size before relaxing)
  .rodata.finsh_system_init.str1.4
-                0x080051a8        0xd CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
- *fill*         0x080051b5        0x3 
+                0x080051c4        0xd CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+ *fill*         0x080051d1        0x3 
  .rodata.bus_fault_track.str1.4
-                0x080051b8       0x70 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
+                0x080051d4       0x70 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
                                  0x72 (size before relaxing)
  .rodata.mem_manage_fault_track.str1.4
-                0x08005228       0x6c CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
+                0x08005244       0x6c CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
  .rodata.usage_fault_track.str1.4
-                0x08005294       0x67 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
- *fill*         0x080052fb        0x1 
+                0x080052b0       0x67 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
+ *fill*         0x08005317        0x1 
  .rodata.hard_fault_track.str1.4
-                0x080052fc       0x25 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
- *fill*         0x08005321        0x3 
+                0x08005318       0x25 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
+ *fill*         0x0800533d        0x3 
  .rodata.rt_hw_hard_fault_exception.str1.4
-                0x08005324      0x14a CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
- *fill*         0x0800546e        0x2 
+                0x08005340      0x14a CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
+ *fill*         0x0800548a        0x2 
  .rodata.rt_application_init.str1.4
-                0x08005470        0x5 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
- *fill*         0x08005475        0x3 
+                0x0800548c        0x5 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+ *fill*         0x08005491        0x3 
  .rodata.rt_thread_idle_init.str1.4
-                0x08005478        0x6 CMakeFiles/test_dwt.elf.dir/rt-thread/src/idle.c.obj
- *fill*         0x0800547e        0x2 
+                0x08005494        0x6 CMakeFiles/test_dwt.elf.dir/rt-thread/src/idle.c.obj
+ *fill*         0x0800549a        0x2 
  .rodata.rt_vsnprintf.str1.4
-                0x08005480        0x7 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
- *fill*         0x08005487        0x1 
+                0x0800549c        0x7 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+ *fill*         0x080054a3        0x1 
  .rodata.rt_show_version.str1.4
-                0x08005488       0x86 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
- *fill*         0x0800550e        0x2 
+                0x080054a4       0x86 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+ *fill*         0x0800552a        0x2 
  .rodata.small_digits.1
-                0x08005510       0x11 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
- *fill*         0x08005521        0x3 
+                0x0800552c       0x11 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+ *fill*         0x0800553d        0x3 
  .rodata.large_digits.2
-                0x08005524       0x11 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
- *fill*         0x08005535        0x3 
+                0x08005540       0x11 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+ *fill*         0x08005551        0x3 
  .rodata.__lowest_bit_bitmap
-                0x08005538      0x100 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
-                0x08005538                __lowest_bit_bitmap
-                0x08005638                        . = ALIGN (0x4)
+                0x08005554      0x100 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+                0x08005554                __lowest_bit_bitmap
+                0x08005654                        . = ALIGN (0x4)
 
-.ARM.extab      0x08005638        0x0
-                0x08005638                        . = ALIGN (0x4)
+.ARM.extab      0x08005654        0x0
+                0x08005654                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08005638                        . = ALIGN (0x4)
+                0x08005654                        . = ALIGN (0x4)
 
-.ARM            0x08005638        0x8
-                0x08005638                        . = ALIGN (0x4)
-                0x08005638                        __exidx_start = .
+.ARM            0x08005654        0x8
+                0x08005654                        . = ALIGN (0x4)
+                0x08005654                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x08005638        0x8 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-memcpy.o)
- .ARM.exidx     0x08005640        0x0 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-strlen.o)
+ .ARM.exidx     0x08005654        0x8 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-memcpy.o)
+ .ARM.exidx     0x0800565c        0x0 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__udivmoddi4
-                0x08005640        0x0 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x0800565c        0x0 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x08005640                        __exidx_end = .
-                0x08005640                        . = ALIGN (0x4)
+                0x0800565c                        __exidx_end = .
+                0x0800565c                        . = ALIGN (0x4)
 
-.rel.dyn        0x08005640        0x0
- .rel.iplt      0x08005640        0x0 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x0800565c        0x0
+ .rel.iplt      0x0800565c        0x0 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.preinit_array  0x08005640        0x0
-                0x08005640                        . = ALIGN (0x4)
-                0x08005640                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0800565c        0x0
+                0x0800565c                        . = ALIGN (0x4)
+                0x0800565c                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08005640                        PROVIDE (__preinit_array_end = .)
-                0x08005640                        . = ALIGN (0x4)
+                0x0800565c                        PROVIDE (__preinit_array_end = .)
+                0x0800565c                        . = ALIGN (0x4)
 
-.init_array     0x08005640        0x8
-                0x08005640                        . = ALIGN (0x4)
-                0x08005640                        PROVIDE (__init_array_start = .)
+.init_array     0x0800565c        0x8
+                0x0800565c                        . = ALIGN (0x4)
+                0x0800565c                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08005640        0x4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x0800565c        0x4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08005644        0x4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08005648                        PROVIDE (__init_array_end = .)
-                0x08005648                        . = ALIGN (0x4)
+ .init_array    0x08005660        0x4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08005664                        PROVIDE (__init_array_end = .)
+                0x08005664                        . = ALIGN (0x4)
 
-.fini_array     0x08005648        0x4
-                0x08005648                        . = ALIGN (0x4)
-                0x08005648                        PROVIDE (__fini_array_start = .)
+.fini_array     0x08005664        0x4
+                0x08005664                        . = ALIGN (0x4)
+                0x08005664                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08005648        0x4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
-                0x0800564c                        PROVIDE (__fini_array_end = .)
-                0x0800564c                        . = ALIGN (0x4)
-                0x0800564c                        _sidata = LOADADDR (.data)
+ .fini_array    0x08005664        0x4 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08005668                        PROVIDE (__fini_array_end = .)
+                0x08005668                        . = ALIGN (0x4)
+                0x08005668                        _sidata = LOADADDR (.data)
 
-.data           0x20000000       0x4c load address 0x0800564c
+.data           0x20000000       0x4c load address 0x08005668
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -3009,17 +3009,17 @@ LOAD d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/
                 0x2000004c                        _edata = .
 
 .tm_clone_table
-                0x2000004c        0x0 load address 0x08005698
+                0x2000004c        0x0 load address 0x080056b4
  .tm_clone_table
                 0x2000004c        0x0 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
  .tm_clone_table
                 0x2000004c        0x0 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtend.o
 
-.igot.plt       0x2000004c        0x0 load address 0x08005698
+.igot.plt       0x2000004c        0x0 load address 0x080056b4
  .igot.plt      0x2000004c        0x0 d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
                 0x2000004c                        . = ALIGN (0x4)
 
-.bss            0x20000050      0xf80 load address 0x08005698
+.bss            0x20000050      0xf80 load address 0x080056b4
                 0x20000050                        _sbss = .
                 0x20000050                        __bss_start__ = _sbss
  *(.bss)
@@ -3124,7 +3124,7 @@ LOAD d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/
                 0x20000fd0                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000fd0      0x600 load address 0x08005698
+                0x20000fd0      0x600 load address 0x080056b4
                 0x20000fd0                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 0x20000fd0                        PROVIDE (_end = .)
@@ -3254,7 +3254,7 @@ LOAD d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/
 LOAD d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libm.a
 LOAD d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000    0x185dc
+.debug_info     0x00000000    0x185e8
  .debug_info    0x00000000      0x5b6 CMakeFiles/test_dwt.elf.dir/APPlication/application.c.obj
  .debug_info    0x000005b6      0x50e CMakeFiles/test_dwt.elf.dir/Core/Src/gpio.c.obj
  .debug_info    0x00000ac4      0xb6c CMakeFiles/test_dwt.elf.dir/Core/Src/main.c.obj
@@ -3272,24 +3272,24 @@ LOAD d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/
  .debug_info    0x000073a8     0x5fa7 CMakeFiles/test_dwt.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj
  .debug_info    0x0000d34f     0x11ee CMakeFiles/test_dwt.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj
  .debug_info    0x0000e53d      0x203 CMakeFiles/test_dwt.elf.dir/lib/core_delay.c.obj
- .debug_info    0x0000e740      0xaae CMakeFiles/test_dwt.elf.dir/rt-thread/bsp/board.c.obj
- .debug_info    0x0000f1ee     0x1742 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
- .debug_info    0x00010930      0x8cb CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
- .debug_info    0x000111fb      0xc4f CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
- .debug_info    0x00011e4a       0x25 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/context_gcc.S.obj
- .debug_info    0x00011e6f      0xac8 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
- .debug_info    0x00012937      0x43b CMakeFiles/test_dwt.elf.dir/rt-thread/src/clock.c.obj
- .debug_info    0x00012d72      0x634 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
- .debug_info    0x000133a6      0x434 CMakeFiles/test_dwt.elf.dir/rt-thread/src/idle.c.obj
- .debug_info    0x000137da     0x11f7 CMakeFiles/test_dwt.elf.dir/rt-thread/src/ipc.c.obj
- .debug_info    0x000149d1      0x182 CMakeFiles/test_dwt.elf.dir/rt-thread/src/irq.c.obj
- .debug_info    0x00014b53     0x10cc CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
- .debug_info    0x00015c1f      0x76b CMakeFiles/test_dwt.elf.dir/rt-thread/src/object.c.obj
- .debug_info    0x0001638a      0x77e CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
- .debug_info    0x00016b08     0x10a3 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
- .debug_info    0x00017bab      0xa31 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
+ .debug_info    0x0000e740      0xaba CMakeFiles/test_dwt.elf.dir/rt-thread/bsp/board.c.obj
+ .debug_info    0x0000f1fa     0x1742 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+ .debug_info    0x0001093c      0x8cb CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+ .debug_info    0x00011207      0xc4f CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+ .debug_info    0x00011e56       0x25 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/context_gcc.S.obj
+ .debug_info    0x00011e7b      0xac8 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
+ .debug_info    0x00012943      0x43b CMakeFiles/test_dwt.elf.dir/rt-thread/src/clock.c.obj
+ .debug_info    0x00012d7e      0x634 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+ .debug_info    0x000133b2      0x434 CMakeFiles/test_dwt.elf.dir/rt-thread/src/idle.c.obj
+ .debug_info    0x000137e6     0x11f7 CMakeFiles/test_dwt.elf.dir/rt-thread/src/ipc.c.obj
+ .debug_info    0x000149dd      0x182 CMakeFiles/test_dwt.elf.dir/rt-thread/src/irq.c.obj
+ .debug_info    0x00014b5f     0x10cc CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+ .debug_info    0x00015c2b      0x76b CMakeFiles/test_dwt.elf.dir/rt-thread/src/object.c.obj
+ .debug_info    0x00016396      0x77e CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
+ .debug_info    0x00016b14     0x10a3 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+ .debug_info    0x00017bb7      0xa31 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
 
-.debug_abbrev   0x00000000     0x49fd
+.debug_abbrev   0x00000000     0x4a10
  .debug_abbrev  0x00000000      0x177 CMakeFiles/test_dwt.elf.dir/APPlication/application.c.obj
  .debug_abbrev  0x00000177      0x164 CMakeFiles/test_dwt.elf.dir/Core/Src/gpio.c.obj
  .debug_abbrev  0x000002db      0x24c CMakeFiles/test_dwt.elf.dir/Core/Src/main.c.obj
@@ -3307,22 +3307,22 @@ LOAD d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/
  .debug_abbrev  0x00001923      0x32e CMakeFiles/test_dwt.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj
  .debug_abbrev  0x00001c51      0x33b CMakeFiles/test_dwt.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj
  .debug_abbrev  0x00001f8c      0x111 CMakeFiles/test_dwt.elf.dir/lib/core_delay.c.obj
- .debug_abbrev  0x0000209d      0x271 CMakeFiles/test_dwt.elf.dir/rt-thread/bsp/board.c.obj
- .debug_abbrev  0x0000230e      0x3f4 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
- .debug_abbrev  0x00002702      0x2e3 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
- .debug_abbrev  0x000029e5      0x3ed CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
- .debug_abbrev  0x00002dd2       0x14 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/context_gcc.S.obj
- .debug_abbrev  0x00002de6      0x2c1 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
- .debug_abbrev  0x000030a7      0x1b7 CMakeFiles/test_dwt.elf.dir/rt-thread/src/clock.c.obj
- .debug_abbrev  0x0000325e      0x235 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
- .debug_abbrev  0x00003493      0x193 CMakeFiles/test_dwt.elf.dir/rt-thread/src/idle.c.obj
- .debug_abbrev  0x00003626      0x338 CMakeFiles/test_dwt.elf.dir/rt-thread/src/ipc.c.obj
- .debug_abbrev  0x0000395e      0x10a CMakeFiles/test_dwt.elf.dir/rt-thread/src/irq.c.obj
- .debug_abbrev  0x00003a68      0x3a3 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
- .debug_abbrev  0x00003e0b      0x288 CMakeFiles/test_dwt.elf.dir/rt-thread/src/object.c.obj
- .debug_abbrev  0x00004093      0x296 CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
- .debug_abbrev  0x00004329      0x342 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
- .debug_abbrev  0x0000466b      0x392 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
+ .debug_abbrev  0x0000209d      0x284 CMakeFiles/test_dwt.elf.dir/rt-thread/bsp/board.c.obj
+ .debug_abbrev  0x00002321      0x3f4 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+ .debug_abbrev  0x00002715      0x2e3 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+ .debug_abbrev  0x000029f8      0x3ed CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+ .debug_abbrev  0x00002de5       0x14 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/context_gcc.S.obj
+ .debug_abbrev  0x00002df9      0x2c1 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
+ .debug_abbrev  0x000030ba      0x1b7 CMakeFiles/test_dwt.elf.dir/rt-thread/src/clock.c.obj
+ .debug_abbrev  0x00003271      0x235 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+ .debug_abbrev  0x000034a6      0x193 CMakeFiles/test_dwt.elf.dir/rt-thread/src/idle.c.obj
+ .debug_abbrev  0x00003639      0x338 CMakeFiles/test_dwt.elf.dir/rt-thread/src/ipc.c.obj
+ .debug_abbrev  0x00003971      0x10a CMakeFiles/test_dwt.elf.dir/rt-thread/src/irq.c.obj
+ .debug_abbrev  0x00003a7b      0x3a3 CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+ .debug_abbrev  0x00003e1e      0x288 CMakeFiles/test_dwt.elf.dir/rt-thread/src/object.c.obj
+ .debug_abbrev  0x000040a6      0x296 CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
+ .debug_abbrev  0x0000433c      0x342 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+ .debug_abbrev  0x0000467e      0x392 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
 
 .debug_loclists
                 0x00000000     0x8ce2
@@ -3518,7 +3518,7 @@ LOAD d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/
  .debug_rnglists
                 0x00000bc0       0x57 CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
 
-.debug_line     0x00000000    0x116e3
+.debug_line     0x00000000    0x116e1
  .debug_line    0x00000000      0x24e CMakeFiles/test_dwt.elf.dir/APPlication/application.c.obj
  .debug_line    0x0000024e      0x227 CMakeFiles/test_dwt.elf.dir/Core/Src/gpio.c.obj
  .debug_line    0x00000475      0x429 CMakeFiles/test_dwt.elf.dir/Core/Src/main.c.obj
@@ -3536,22 +3536,22 @@ LOAD d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/
  .debug_line    0x0000519b     0x6384 CMakeFiles/test_dwt.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj
  .debug_line    0x0000b51f      0xd5e CMakeFiles/test_dwt.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj
  .debug_line    0x0000c27d      0x252 CMakeFiles/test_dwt.elf.dir/lib/core_delay.c.obj
- .debug_line    0x0000c4cf      0x433 CMakeFiles/test_dwt.elf.dir/rt-thread/bsp/board.c.obj
- .debug_line    0x0000c902      0x8d8 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
- .debug_line    0x0000d1da      0x637 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
- .debug_line    0x0000d811      0x70c CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
- .debug_line    0x0000df1d       0xb5 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/context_gcc.S.obj
- .debug_line    0x0000dfd2      0x3db CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
- .debug_line    0x0000e3ad      0x192 CMakeFiles/test_dwt.elf.dir/rt-thread/src/clock.c.obj
- .debug_line    0x0000e53f      0x225 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
- .debug_line    0x0000e764      0x11b CMakeFiles/test_dwt.elf.dir/rt-thread/src/idle.c.obj
- .debug_line    0x0000e87f      0x8ee CMakeFiles/test_dwt.elf.dir/rt-thread/src/ipc.c.obj
- .debug_line    0x0000f16d      0x12b CMakeFiles/test_dwt.elf.dir/rt-thread/src/irq.c.obj
- .debug_line    0x0000f298      0xeba CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
- .debug_line    0x00010152      0x3de CMakeFiles/test_dwt.elf.dir/rt-thread/src/object.c.obj
- .debug_line    0x00010530      0x3d1 CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
- .debug_line    0x00010901      0x758 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
- .debug_line    0x00011059      0x68a CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
+ .debug_line    0x0000c4cf      0x431 CMakeFiles/test_dwt.elf.dir/rt-thread/bsp/board.c.obj
+ .debug_line    0x0000c900      0x8d8 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
+ .debug_line    0x0000d1d8      0x637 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj
+ .debug_line    0x0000d80f      0x70c CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/shell.c.obj
+ .debug_line    0x0000df1b       0xb5 CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/context_gcc.S.obj
+ .debug_line    0x0000dfd0      0x3db CMakeFiles/test_dwt.elf.dir/rt-thread/libcpu/arm/cortex-m4/cpuport.c.obj
+ .debug_line    0x0000e3ab      0x192 CMakeFiles/test_dwt.elf.dir/rt-thread/src/clock.c.obj
+ .debug_line    0x0000e53d      0x225 CMakeFiles/test_dwt.elf.dir/rt-thread/src/components.c.obj
+ .debug_line    0x0000e762      0x11b CMakeFiles/test_dwt.elf.dir/rt-thread/src/idle.c.obj
+ .debug_line    0x0000e87d      0x8ee CMakeFiles/test_dwt.elf.dir/rt-thread/src/ipc.c.obj
+ .debug_line    0x0000f16b      0x12b CMakeFiles/test_dwt.elf.dir/rt-thread/src/irq.c.obj
+ .debug_line    0x0000f296      0xeba CMakeFiles/test_dwt.elf.dir/rt-thread/src/kservice.c.obj
+ .debug_line    0x00010150      0x3de CMakeFiles/test_dwt.elf.dir/rt-thread/src/object.c.obj
+ .debug_line    0x0001052e      0x3d1 CMakeFiles/test_dwt.elf.dir/rt-thread/src/scheduler.c.obj
+ .debug_line    0x000108ff      0x758 CMakeFiles/test_dwt.elf.dir/rt-thread/src/thread.c.obj
+ .debug_line    0x00011057      0x68a CMakeFiles/test_dwt.elf.dir/rt-thread/src/timer.c.obj
 
 .debug_str      0x00000000     0x5081
  .debug_str     0x00000000      0x344 CMakeFiles/test_dwt.elf.dir/APPlication/application.c.obj
@@ -3589,7 +3589,7 @@ LOAD d:/arm-gun-toolchain/12.2 mpacbti-rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/
  .debug_str     0x0000360d       0x96 CMakeFiles/test_dwt.elf.dir/lib/core_delay.c.obj
                                 0x2a3 (size before relaxing)
  .debug_str     0x000036a3      0x112 CMakeFiles/test_dwt.elf.dir/rt-thread/bsp/board.c.obj
-                                0x8f0 (size before relaxing)
+                                0x8f7 (size before relaxing)
  .debug_str     0x000037b5      0x6c9 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/cmd.c.obj
                                 0xa43 (size before relaxing)
  .debug_str     0x00003e7e      0x1a7 CMakeFiles/test_dwt.elf.dir/rt-thread/components/finsh/msh.c.obj

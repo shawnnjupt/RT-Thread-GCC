@@ -99,7 +99,7 @@ void rt_hw_board_init()
     //uart init
     MX_USART1_UART_Init();
     uart_init();
-//    UART_printf(&huart1,"finished\n");
+
 }
 
 void SysTick_Handler(void)
@@ -143,7 +143,7 @@ void rt_hw_console_output(const char *str)
     rt_size_t i = 0, size = 0;
     char a = '\r';
 
-//    __HAL_UNLOCK(&huart1);
+    __HAL_UNLOCK(&huart1);
 
     size = rt_strlen(str);
 

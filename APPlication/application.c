@@ -92,7 +92,7 @@ int main(void) {
 
 
     /* USER CODE BEGIN 2 */
-    rt_kprintf("nice\n");
+    rt_kprintf("RT-Thread Begin Main!\n");
     rt_thread_init(&led1_thread, /* 线程控制块 */
                    "led1", /* 线程名字 */
                    led1_thread_entry, /* 线程入口函数 */
